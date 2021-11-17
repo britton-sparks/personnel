@@ -1,0 +1,48 @@
+1 -- intro
+    1.1	-- purpose
+        for you to see if I can do this type of work
+
+2 -- what are we testing?
+    2.1 -- description
+        ui\api-based function of rei's used water shoes category
+
+    2.2 -- in scope
+        +-----------------------------+-----------------------------+
+        | item to test                | test description            |
+        +-----------------------------+-----------------------------+
+        | product size filters        | size-based filtering        |
+        | product brand filters       | brand-based filtering       |
+        | shopping cart               | adding items to cart        |
+        | shopping cart               | removing items from cart    |
+        | checkout email fields       | email field validation      |
+        +-----------------------------+-----------------------------+
+
+    2.3 -- out of scope
+        +-------------------+-----------+
+        | item not to test  | comment   |
+        +-------------------+-----------+
+        | full checkout     | N/A       |
+        | other categories  | N/A       |
+        +-------------------+-----------+
+
+    2.4 -- test approach(s)
+        partly ui-based automation, partly api-based
+        functional tests with data-gathering api calls
+
+    2.5 -- pass\fail criteria
+        expected data from api, expected element behavior\incorrect data from api, unexpected element behavior
+
+    2.6 -- entry\exit criteria
+        when I take the time to actually start\if I run out of time, or am blocked in some way
+
+    2.7 -- deliverables
+        this test plan
+        a readme file describing how to install required frameworks\packages, and how to run the test
+
+3 -- what are the risks?
+    3.1 -- test risks\issues
+        apparently, being ip blocked
+
+4 -- test environment and infrastructure
+    4.1 -- required infrastructure
+        an environment I can just ruin
